@@ -70,18 +70,14 @@ div#Sidebar ul li a:hover {
 }
 
 a.PageLink {
-  background-color: #999;
-  -moz-border-radius: 0.4em;
-  -webkit-border-radius: 0.4em;
-  -webkit-box-shadow: #333 1px 1px 4px;
   height: 48px;
   display: block;
-  margin: 0.5em 0em;
+  margin: 0.2em 0em;
 }
 
 a.PageLink img {
   width: 48px;
-  float: left;
+  float: right;
 }
 a.PageLink span {
   position: relative;
