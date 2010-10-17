@@ -15,10 +15,6 @@ div#Frame {
 div#Banner {
     text-align: right;
 }
-div#Banner img {
-    position: relative;
-    left: 85px;
-}
 
 div#Content {
     float: left;
