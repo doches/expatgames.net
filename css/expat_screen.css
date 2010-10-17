@@ -104,10 +104,13 @@ div.Entry a {
   color: #fff;
 }
 
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
 div.Entry h1 {
   margin: 0px;
   padding-bottom: 4px;
-  font-weight: normal;
 }
 
 div.Entry h1 a {
