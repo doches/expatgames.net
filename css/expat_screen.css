@@ -4,6 +4,10 @@ body {
   background-color: #444;
 }
 
+a img {
+  border-width: 0px;
+}
+
 /* @group Layout */
 div#Frame {
     width: 800px;
