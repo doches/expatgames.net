@@ -143,4 +143,17 @@ div.Entry img.Right {
 div.EntryFinal {
   text-align: center;
 }
+div.ImageBox {
+  width: 100%;
+  text-align: center;
+}
+div.ImageBox span.Caption {
+  clear: both;
+  display: block;
+  font-style: italic;
+}
+div.prefooter {
+  height: 1px;
+  clear: both;
+}
 /* @end */
