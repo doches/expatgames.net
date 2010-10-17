@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+@import url("/css/fonts.css");
+
+body {
+  color: #f6f6f6;
+  background-color: #262626;
+}
+
+div#Frame {
+  width: 800px;
+  margin: 0px auto;
+  font-family: 'Gill Sans', 'Gill Sans Std', 'Gill Sans MT', Verdana, 'Bitstream Vera Sans', sans-serif;
+}
+
+div#Banner {
+  clear: both;
+  font-family: Fontin, Georgia, Verdana, sans-serif;
+  letter-spacing: 5px;
+  font-size: 32pt;
+  margin: 0px;
+}
+
+div#Banner img {
+  border-width: 0px;
+}
+
+div#Sidebar {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+  font-size: 10pt;
+  text-align: right;
+}
+div#Sidebar ul li {
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+  padding: 1px 2px;
+}
+
+div#Sidebar ul li a {
+  border-width: 0px;
+}
+
+div#Content {
+  float: right;
+  width: 80%;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+
+div.Entry {
+  padding: 0em 1em;
+  margin-bottom: 3em;
+}
+
+div.Entry h1,h2,h3,h4,h5 {
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+}
+
+div.Entry span.Date {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 8pt;
+}
+
+div.EntryContent {
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: normal;
+  font-variant: normal;
+  font-style: normal;
+  font-family: Verdana, sans-serif;
+}
+
+pre {
+  margin: 0px 1em;
+  background-color: #101010;
+  color: #d0d0d0;
+  border: 1px solid #000;
+  padding: 3px 6px;
+}
+
+code {
+  padding: 1px 3px;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  background-color: #202020;
+}
+
+a:visited {
+  color: #f6f6f6;
+}
+
+ul.Archive li {
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+}
+
+a.no_hover:hover {
+  background-color: #f6f6f6;
+}
+
+ul.Archive h2 a {
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+ul.Archive li {
+  text-indent: 0px;
+  margin: 0em;
+  padding: 0em;
+}
+
+ul.ArchiveList {
+  margin: 1em 0em 3em 0em;
+  padding: 0em;
+}
+
+ul.ArchiveList a {
+  text-transform: none;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+
+ul.ArchiveList li {
+  margin: 0em 0em 0.5em 0em;
+  padding: 0em;
+  line-height: 1.2eh;
+  text-indent: 0em;
+}
+
+ul.ArchiveList li span.ArchiveDate {
+  color: #777;
+  text-transform: capitalize;
+  font-size: 10px;
+  letter-spacing: 0px;
+  margin-left: 3em;
+}
+
+ul.PublicationList {
+  list-style: none;
+}
+
+span.PublicationJournal {
+  font-style: italic;
+}
+
+span.PublicationDownload a {
+    color: #777;
+    text-transform: capitalize;
+    font-size: 10px;
+    letter-spacing: 0px;
+    margin-left: 3em;
+    text-decoration: none;
+}

@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Fontin";
+  src: url(css/Fontin-Regular.ttf) format("truetype");
+}
