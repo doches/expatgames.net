@@ -11,6 +11,7 @@ div#Frame {
     width: 800px;
     margin: 0.5em auto;
     font-family: Verdana, sans-serif;
+    text-shadow: #333 1px 1px 4px;
 }
 
 div#Banner {
@@ -42,26 +43,53 @@ div#Sidebar {
     font-size: 8pt;
     text-align: right;
     color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.5em;
 }
 
 div#Sidebar ul {
-  margin: 0em;
+  margin: 0em 0em 2em 0em;
   padding: 0px;
 }
 
 div#Sidebar ul li {
   list-style: none;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  line-height: 1.5em;
   padding: 1px 2px;
   margin: 0px;
 }
 
-div#Sidebar ul li a {
+div#Sidebar a {
   border-width: 0px;
   color: #fff;
   text-decoration: none;
+}
+
+div#Sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+a.PageLink {
+  background-color: #999;
+  -moz-border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
+  -webkit-box-shadow: #333 1px 1px 4px;
+  height: 48px;
+  display: block;
+  margin: 0.5em 0em;
+}
+
+a.PageLink img {
+  width: 48px;
+  float: left;
+}
+a.PageLink span {
+  position: relative;
+  top: 1.5em;
+  margin-right: 0.5em;
+}
+a.PageLink span:hover {
+  border-bottom: 1px solid #ddd;
 }
 /* @end */
 
@@ -74,7 +102,6 @@ div.Entry {
   font-variant: normal;
   font-style: normal;
   color: #f6f6f6;
-  text-shadow: #333 1px 1px 4px;
 }
 
 div.Entry a {
