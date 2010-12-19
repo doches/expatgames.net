@@ -4,6 +4,10 @@ body {
   background-color: #444;
 }
 
+a img {
+  border-width: 0px;
+}
+
 /* @group Layout */
 div#Frame {
     width: 800px;
@@ -151,5 +155,35 @@ div.ImageBox span.Caption {
 div.prefooter {
   height: 1px;
   clear: both;
+}
+/* @end */
+
+/* @group Poll */
+a.submitLink {
+  display: none;
+  background-color: #9f9f9f;
+  color: #444;
+  text-decoration: none;
+  padding: 2px 12px;
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 1px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  font-size: 12px;
+  margin: 8px 20px;
+  -moz-box-shadow: rgba(0,0,0,0.25) 1px 1px 3px;
+  -webkit-box-shadow: rgba(0,0,0,0.25) 1px 1px 3px;
+  width: 4em;
+  text-align: center;
+}
+
+a.submitLink:hover {
+  background-color: #c0c0c0;
+  border-color: #fff;
+  color: #efefef;
+}
+form p.Thanks {
+  color: #6f6;
 }
 /* @end */
